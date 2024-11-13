@@ -45,11 +45,26 @@ Our solution uses KMeans clustering and geolocation analysis to recommend new ta
 - **GeoPy**: For calculating distances between cluster centroids and taxi ranks.
 - **Folium**: For mapping and visualization of demand areas and proposed taxi stands.
 
+## Installation
+
+To use the **OptionsPricing** web application locally, follow the instructions below:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/PrinceAJ17/Taxi-Stand-Allotment.git
+   cd Taxi-Stand-Allotment
+
+2. **Run the application:**
+
+   To start the web application, run the following command:
+
+   ```bash
+   python mapping.py
+   ```
+   Open taxi_start_times_map.html on your web browser.
+
 ## Conclusion
 
 Our solution provides RTA with insights into where new taxi stands could be beneficial based on demand patterns in Dubai. By optimizing the placement of taxi stands, this solution aims to enhance service efficiency and customer satisfaction for Dubai's taxi riders.
 
-## Future Enhancements
-
-- **Real-Time Data Integration**: Use live GPS data from taxis to continuously adjust the high-demand zones.
-- **Passenger Density Forecasting**: Integrate historical data to predict future high-demand areas for further optimization.
